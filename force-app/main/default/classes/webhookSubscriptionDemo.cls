@@ -1,4 +1,4 @@
-@RestResource(urlMapping='/api/webhooks/PushDetailsdemo/*')
+@RestResource(urlMapping='/api/Webhooks/pushDetailsdemo/*')
 global with sharing class webhookSubscriptionDemo {
     @HttpPost
     global static void handleNotification() {
